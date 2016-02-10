@@ -2,15 +2,15 @@ var bio = {
     'name': 'Yingtian Wang',
     'role': 'Web developer',
     'contacts': {
-        'email': 'wyingtian@gmail.com',
+        'email': 'yingtianwang@g.harvard.edu',
         'mobile': '917-767-8887',
-        'github': 'www.github.com',
+        'github': 'https://github.com/wyingtian',
         'twitter': '@ying',
         'location': 'Boston',
     },
-    'biopic': 'images/fry.jpg',
+    'biopic': 'images/me.jpeg',
     'welcomMessage': 'Welcome to my resume page',
-    'skills': ['HTML/CSS', 'JavaScript', 'C', 'Java', 'Bash'],
+    'skills': ['HTML5/CSSe', 'JavaScript', 'Java','C', 'PHP']
 };
 
 var projects = {
@@ -208,7 +208,7 @@ education.display = function() {
 //call functions
 bio.display();
 work.display();
-projects.display();
+//projects.display();
 education.display();
 
 //add map component
