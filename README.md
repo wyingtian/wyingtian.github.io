@@ -1,4 +1,3 @@
-## Online Resume
-#  access at wyingtian.github.io
+#Resume Template
 
-
+From https://github.com/knommon/resume

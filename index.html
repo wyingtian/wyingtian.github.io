@@ -1,112 +1,185 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+    <!-- OPTIONAL: description -->
+    <meta name="description" content="">
+    <!-- OPTIONAL: author -->
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png" />
 
-<!--
-This is an HTML document. It contains information about how elements in the website
-are arranged. In other words, it describes the layout of a website.
+		<!-- EDIT: title -->
+    <title>Yingtian Wang </title>
 
-I can't wait to see the resumes you put together!
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-Cameron Pittman, Udacity Course Developer
--->
+    <!-- Link the main.css stylesheet -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
 
-<!--
-The <head> of a website generally links to important resources the page will
-need to load. You'll see a lot of <link>s to CSS files for styles and
-<scripts> for JavaScript files to build interactions.
--->
-<head>
-  <!-- This tells the browser how to read the document. -->
-  <meta charset="utf-8">
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
-  <!-- Tells the browser what the title of this page should be. -->
-  <title>Resume</title>
 
-  <!-- Load the page styles. -->
-  <link href="css/style.css" rel="stylesheet">
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!--
-  jQuery is a common JavaScript library for reading and making changes to the
-  Document Object Model (DOM). The DOM is a tree that contains information
-  about what is actually visible on a website.
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-  While HTML is a static document, the browser converts HTML to the
-  DOM and the DOM can change. In fact, JavaScript's power comes from
-  its ability to manipulate the DOM, which is essentially a JavaScript
-  object. When JavaScript makes something interesting happen on a
-  website, it's likely the action happened because JavaScript changed
-  the DOM. jQuery is fast and easy to use, but it doesn't do anything
-  you can't accomplish with vanilla (regular) JavaScript.
-  -->
-     <!-- <script src="js/jQuery.js"></script>  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- More on helper.js in the class -->
-  <script src="js/helper.js"></script>
+  <body>
+	
+	<div id="header" class="header">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<!-- EDIT: name -->
+					<h1>Yingtian Wang</h1>
+					<!-- EDIT: title | email -->
+					<h3>Web Developer </h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.header -->
+	
 
-  <!--
-  Uncomment the <script> tag below when you're ready to add an interactive
-  Google Map to your resume!
-  -->
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<section id="about" name="about"></section>
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<!-- EDIT: about -->
+					<p>Dedicated and motivated Software Engineering graduate student seeking software development position.</p>
+				</div>
+				<div class="col-lg-3">
+					<!-- EDIT: download link -->
+					<p><a href="ying_resume.pdf" target="_blank"><i class="icon-file"></i> <sm>DOWNLOAD RESUME</sm></a></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
 
-  <meta name="viewport" content="width=device-width">
-</head>
-<body>
-  <div id="main">
 
-    <!--
-    Everything from here to the <script> tag below is the skeleton of your
-    website. Your code will add information to each of the sections of the
-    resume below. You can pretty easily figure out what each section will
-    display by looking at the id or at what's written between the <h2> tags.
-    -->
-    <div id="header" class="center-content clear-fix">
-      <ul id="topContacts" class="flex-box"></ul>
-    </div>
-    <div style="clear: both;"></div>
-    <div id="workExperience" class="gray">
-      <h2>Work Experience</h2>
-    </div>
-    <div id="projects">
-      <h2>Projects</h2>
-                  <div class="row text-center">
-                <div class="col-md-4">
+	<section id="resume" name="resume"></section>
+	<!-- EDUCATION SECTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<!-- EDIT: education line 1 -->
+				<div class="col-lg-6">
+					<p><t>Harvard University</t><br/>
+						Master of Liberal Arts in Software Engineering 
+						<!--<br/><i>Extra info here</i>-->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>Expected SPRING 2017</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<!-- EDIT: education line 2 -->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Central South University </t><br/>
+						 Bachelor of Electrical Engineering 
+						<!--<br/><i>Extra info here</i>-->
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2013</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	<div class="container desc">
+		
+	<!--     <div id="projects"> -->
+     
+                  <div class="row ">
+                  	 <div class="col-lg-2 col-lg-offset-1">
+					<h5>PROJECTS</h5>
+				</div>
+			</div>
+			<div class="row">
+                <div class="col-lg-3 col-lg-offset-3">
                     <img class="img-responsive center" src="images/pass-gen.png" alt="password generator image">
-                    <a class="link-demo" href="http://p2.yingtian.me/">P2-Demo</a>
+                    <a class="link-demo text-center" href="http://p2.yingtian.me/">P2-Demo</a>
                     <p><a href="https://github.com/wyingtian/P2-PasswordGenerator" class="link-github">GitHub-link</a>
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-3 col-lg-offset-1">
                     <img class="img-responsive center" src="images/lorem-ipsum.jpg" alt="lorem-ipsum generator image">
-                    <a class="link-demo" href="http://p3.yingtian.me/">P3-Demo</a>
+                    <a class="link-demo text-center" href="http://p3.yingtian.me/">P3-Demo</a>
                     <p><a href="http://github.com/wyingtian" class="link-github">GitHub-link</a>
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-3 col-lg-offset-3">
                     <img class="img-responsive center" src="images/final-proj.jpg" alt="final-project image">
-                    <a class="link-demo" href="http://p4.yingtian.me/">P4-Demo</a>
+                    <a class="link-demo text-center" href="http://p4.yingtian.me/">P4-Demo</a>
                     <p><a href="http://github.com/wyingtian" class="link-github">GitHub-link</a>
                     </p>
                 </div>
             </div>
-    </div>
-    <div id="education" class="gray">
-      <h2>Education</h2>
-    </div>
-    <div id="mapDiv">
-      <h2>Where I've Lived and Worked</h2>
-    </div>
-    <div id="lets-connect" class="dark-gray">
-      <h2 class="orange center-text">Let's Connect</h2>
-        <ul id="footerContacts" class="flex-box">
-      </ul>
-    </div>
-  </div>
+            </div>
+            </div>
 
-  <!--
-  The next line tells the browser where to download the JavaScript file you'll be
-  writing. In resumeBuilder.js, you'll be writing code that builds the resume
-  dynamically when this website, index.html, is opened.
-  -->
-  <script src="js/resumeBuilder.js"></script>
-</body>
+	<br>
+		<hr>
+ 
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap" class="footer">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<!-- EDIT: email -->
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						<a href="mailto:YOUR@EMAIL.com" target="_blank" class="mail">yingtianwang@g.harvard.edu</a> <br/>
+					</p>
+					<!-- EDIT: address -->
+<!-- 					<p><t>Address</t><br/>
+						Boston, MA 02108 <br/>
+						United States of America<br/>
+					</p> -->
+					<!-- EDIT: phone number -->
+					<p><t>Phone</t><br/>
+						<a href="tel:2345678901" class="tel">(917) 767-8887</a> <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<!-- EDIT: Social Links. Replace # with your URL for each -->
+						<a href="http://yingtian.me" target="_blank"><i class="icon-dribbble"></i></a>
+						<a href="https://twitter.com/wyingtian" target="_blank"><i class="icon-twitter"></i></a>
+						<a href="#" target="_blank"><i class="icon-facebook"></i></a>
+						<a href="https://www.linkedin.com/in/yingtianwang" target="_blank"><i class="icon-linkedin"></i></a>
+						<!--<a href="#" target="_blank"><i class="icon-github"></i></a>-->
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+  </body>
 </html>
